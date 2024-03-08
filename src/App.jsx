@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar/navbar'
 import Hero from './components/Hero/hero'
-import Experience from './components/Experience/experience'
-
+// import Experience from './components/Expreience/experience'
+import Enroll from './components/Enroll/enroll'
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <Experience/>
+      <Enroll/>
+      {/* <Experience/> */}
 
     </>
   )

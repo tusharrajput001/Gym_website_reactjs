@@ -1,8 +1,7 @@
-
 .img-container {
+    position: relative;
     width: 100%;
     overflow: hidden;
-    position: relative;
 }
 
 .img-hero {
@@ -10,129 +9,18 @@
     height: auto;
 }
 
-
-
-.hero-intro{
-    display: flex;
-    flex-direction: column;
-    color: yellow;
-    font-size: 13vh;
-    align-items:end;
-    opacity: 40%;
+.hero-intro {
     position: absolute;
-    top: 40vh;
-    width: 100%;
-    right: 7%;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(240, 244, 5);
+    font-size: 10vw; /* Adjust font size using viewport width units */
+    opacity: 20%;
 }
 
-
-@media (max-width:2094px) {
-    .hero-intro{
-        font-size: 10vh;
-        top: 36vh;
-    }
+.hero-desc {
+    margin: 0;
 }
 
-
-@media (max-width:1731px) {
-    .hero-intro{
-        font-size: 8vh;
-        top: 32vh;
-    }
-}
-
-
-@media (max-width:1396px) {
-    .hero-intro{
-        font-size: 7vh;
-        top: 28vh;
-    }
-}
-
-@media (max-width:1193px) {
-    .hero-intro{
-        font-size: 5vh;
-        top: 20vh;
-    }
-}
-
-
-@media (max-width:938px) {
-
-    
-.hero-intro{
-    font-size: 7vh;
-    align-items:center;
-    top: 30vh;
-    width: 100%;
-    margin: auto;
-    padding: auto;
-    left: 0vh;
-    position: absolute;
-   }
-
-}
-
-
-@media (max-width:765px) {
-
-    
-    .hero-intro{
-        font-size: 5vh
-    }  
-}
-
-
-
-
-
-@media (max-width:671px) {
-
-    
-    .hero-intro{
-        font-size: 3vh
-    }  
-}
-
-
-
-@media (max-width:671px) {
-    .hero-intro{
-        font-size: 3.4vh
-    }  
-}
-
-
-
-@media (max-width:582px) {
-    .hero-intro{
-        font-size: 3vh;
-        top: 25vh;
-    }  
-}
-
-
-@media (max-width:582px) {
-    .hero-intro{
-        font-size: 3vh;
-    }  
-}
-
-
-
-@media (max-width:481px) {
-    .hero-intro{
-        font-size: 2.2vh;
-        top: 20vh;
-    }  
-}
-
-
-
-@media (max-width:381px) {
-    .hero-intro{
-        font-size: 2vh;
-        top: 19vh;
-    }  
-}

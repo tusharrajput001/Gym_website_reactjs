@@ -1,0 +1,53 @@
+.enroll-img{
+    width: 100%;
+    height: auto;
+    filter:opacity(12%);
+
+}
+
+
+.enroll-div{
+    position: relative;
+}
+
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;}
+
+  
+.enroll-div h2 {
+    font-size: 5vw; 
+    color: rgb(212, 212, 19);
+    text-align: center; 
+    
+}
+
+.enroll-div p {
+    font-size: 2vw; 
+    color: rgba(255, 255, 0, 0.847);
+    text-align: center;
+}
+
+.text-overlay h2,
+.text-overlay p {
+  margin: 0;
+}
+
+
+
+
+.btn-enroll {
+    text-decoration: none;
+    background-color: rgb(231, 229, 114);
+    padding: 10px 20px; /* Adjust padding */
+    border: 3px solid black;
+    border-radius: 1.3rem;
+    color: black;
+    font-size: 2vw; /* Responsive font size */
+    cursor: pointer; /* Add cursor pointer on hover */
+}
