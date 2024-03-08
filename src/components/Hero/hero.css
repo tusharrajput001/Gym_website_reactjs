@@ -84,35 +84,6 @@
 }
 
 
-@media (max-width:1024px) {
-
-    
-    .hero-intro{
-        font-size: 4.7vh
-    }  
-}
-@media (max-width:912px) {
-
-    
-    .hero-intro{
-        font-size: 3.4vh
-    }  
-}
-
-
-
-
-
-
-
-@media (max-width:768px) {
-
-    
-    .hero-intro{
-        font-size: 4vh
-    }  
-}
-
 
 
 
