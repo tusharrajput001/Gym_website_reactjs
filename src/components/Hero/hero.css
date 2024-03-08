@@ -1,0 +1,16 @@
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+
