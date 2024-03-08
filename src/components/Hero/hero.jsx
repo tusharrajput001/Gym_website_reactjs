@@ -8,10 +8,14 @@ export default function Hero() {
       <div className='img-container'>
         <img src={HeroImg} className='img-hero' alt='hero'/>
         <div className='hero-intro'>
-          <h1 className='hero-heading'>ENROLL TODAY</h1>
-          
+          <div className='hero-heading'>DISCOVER</div>
+          <div className='hero-heading'>YOUR</div>
+          <div className='hero-heading'>STRENGTH</div>
       </div>
+
       </div>
+
+
 
 
     </>
