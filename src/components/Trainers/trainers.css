@@ -1,0 +1,15 @@
+.tr-head{
+    color: white;
+    font-size: 6vh;
+    display: flex;    
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+
+.cards-con{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+}
