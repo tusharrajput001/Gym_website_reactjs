@@ -49,6 +49,7 @@
     position: fixed;
     margin: 0; /* Remove any default margin */
     padding: 0;
+    z-index: 999;
    
  
 

@@ -2,15 +2,175 @@
 .img-container {
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .img-hero {
     width: 100%;
     height: auto;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    z-index: -1; 
 }
 
 
+
+
+ 
+.hero-heading{
+    display: inline;
+    position: absolute;
+    color: yellow;
+    top: 30vh;
+    left: 56%;
+    font-size: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* .hero-button{
+    position: absolute;
+    padding: 1vh;
+    border: .1em solid rgb(140, 133, 133);
+    background: yellow;
+    font-size: 2vw;
+    right: 20%;
+    top: 50vh;
+    border-radius: 1em;
+
+}  */ 
+
+
+
+/* 
+@media (max-width:1530px) {
+
+    .hero-heading{
+        font-size: 8vh;
+        right: 8%;
+    }
+    
+    .hero-button{
+        font-size: 1.4vw;  
+        right: 17%;
+        top:46vh
+    }
+    
+}
+
+
+@media (max-width:1405px) {
+    .hero-button{
+        right: 18.4%;
+    }
+}
+
+
+@media (max-width:1119px) {
+    .hero-button{
+        font-size: 1.3vw;
+        top: 42vh;
+        right: 18%;
+    
+    }
+
+    .hero-heading{
+        font-size: 6vh;
+    }
+}
+
+
+@media (max-width:938px){
+    .hero-button{
+        font-size: 2vw;
+        top: 62vh;
+        right: 42.4%;
+    
+    }
+
+    
+.hero-heading{
+    position: absolute;
+    right: 20%;
+    top: 40vh;
+    font-size: 10vh;
+    
+   
+
+}
+
+
+
+} */
+
+
+
+@media (max-width:2053px) {
+    .hero-heading{
+        font-size: 8.5vh;
+    }
+}
+
+@media (max-width:1653px) {
+    .hero-heading{
+        font-size: 7vh;
+    }
+}
+
+@media (max-width:1383px) {
+    .hero-heading{
+        font-size: 6vh;
+    }
+}
+
+@media (max-width:1192px) {
+    .hero-heading{
+        top: 200px;
+        font-size: 4.8vh;
+    }
+}
+
+
+@media (max-width:938px) {
+    .hero-heading{
+       top: 24vh;
+        left: 8vh;
+        font-size: 9vh;
+        position: absolute;
+    }
+}
+
+@media (max-width:889px) {
+    .hero-heading{
+        
+        left: 13vh;
+        font-size: 7vh;
+        position: absolute;
+    }
+}
+
+@media (max-width:811px) {
+    .hero-heading{
+        
+        left: 15vh;
+        font-size: 5vh;
+        position: absolute;
+    }
+}
+
+
+@media (max-width:617px) {
+    .hero-heading{
+        left: 11.4vh;
+        font-size: 4vh;
+        
+
+    }
+}
+
+
+
+@media (max-width:586px) {
+    .hero-heading{
+
+        display: none;
+
+    }
+}

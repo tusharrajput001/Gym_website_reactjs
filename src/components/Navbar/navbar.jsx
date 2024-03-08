@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
       <div className={`nav-container ${navbarBackground ? 'gray-bg' : ''}`}>
-        <a href="/" className='Logo'>RadiantGym</a>
+        <a href="/" className='Logo'>Radiant Gym</a>
         <div className='menu' onClick={handleMenuClick}>
           <span></span>
           <span></span>
