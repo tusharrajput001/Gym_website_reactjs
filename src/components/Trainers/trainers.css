@@ -10,6 +10,16 @@
 
 .cards-con{
     display: flex;
-    flex-direction: row;
-    margin: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 0px;
+
 }
+
+
+@media (max-width: 800px) {
+    .cards-con .card-cntr {
+      max-width: calc(50% - 20px); /* Two cards per row */
+    }
+  }
+  

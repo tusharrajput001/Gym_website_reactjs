@@ -10,7 +10,7 @@ function Enroll() {
         <div className='text-overlay'>
             <h2>ENROLL NOW</h2>
             <p>Start your Fitness Journey At Radiant Gym Today.</p>
-            <button className="btn-enroll" href='https://www.google.com'>CLICK HERE</button>    
+            <button className="btn-enroll" href='https://www.google.com'><span>CLICK HERE</span></button>    
         </div>
     </div>
   )

@@ -21,14 +21,14 @@
 
   
 .enroll-div h2 {
-    font-size: 5vw; 
+    font-size: 4vw; 
     color: rgb(212, 212, 19);
     text-align: center; 
     
 }
 
 .enroll-div p {
-    font-size: 2vw; 
+    font-size: 1vw; 
     color: rgba(255, 255, 0, 0.847);
     text-align: center;
 }
@@ -41,13 +41,51 @@
 
 
 
-.btn-enroll {
+/* .btn-enroll {
     text-decoration: none;
     background-color: rgb(231, 229, 114);
-    padding: 10px 20px; /* Adjust padding */
-    border: 3px solid black;
-    border-radius: 1.3rem;
+    padding: 10px 15px; 
+    border: 2px solid black;
+    border-radius: 1.9rem;
     color: black;
-    font-size: 2vw; /* Responsive font size */
-    cursor: pointer; /* Add cursor pointer on hover */
-}
+    margin-top: 1.8vh;
+    font-size: 1.1vw; 
+    cursor: pointer; 
+} */
+
+.btn-enroll {
+    border-radius: 1.9rem;
+    background-color: rgb(231, 229, 114);
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 1.1vw; 
+    padding: 10px 15px; 
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1.8vh;
+  }
+  
+  .btn-enroll span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-enroll span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-enroll:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-enroll:hover span:after {
+    opacity: 1;
+    right: 0;}

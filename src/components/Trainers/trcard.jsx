@@ -2,7 +2,7 @@ import React from 'react'
 import "./trcard.css"
 
 
-function Trcard({tr_img,tr_name,tr_title,tr_unv}) {
+function Trcard({tr_img,tr_name,tr_title,tr_unv,tr_ig,tr_fb}) {
   return (
     <>
         <div className='card-cntr'>
@@ -11,10 +11,9 @@ function Trcard({tr_img,tr_name,tr_title,tr_unv}) {
             <h1>{tr_name}</h1>
             <p className="tr-title">{tr_title}</p>
             <p>{tr_unv}</p>
-            <a href="#"><i className="fa fa-twitter"></i></a>
-            <a href="#"><i className="fa fa-linkedin"></i></a>
-            <a href="#"><i className="fa fa-facebook"></i></a>
-            <p><button>Contact</button></p>
+            <a href={tr_ig}><i class="fab fa-instagram fa-2x tr-icons"></i></a>
+            <a href={tr_fb}><i class="fab fa-facebook fa-2x tr-icons"></i></a>
+          
                            
         </div>
     </>
