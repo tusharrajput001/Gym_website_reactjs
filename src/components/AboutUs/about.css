@@ -1,0 +1,71 @@
+.ab-head{
+    color: white;
+    font-size: 6vh;
+    display: flex;    
+    font-weight: 500;
+    margin: 0;
+
+}
+
+
+.ab-con{
+    display: flex;
+    flex-direction:row;
+    margin-top: 20vh;
+}
+
+
+.ab-desc-container{
+    width: 50vw;
+    margin-left: 4vw;
+
+}
+
+
+.ab-desc-container p{
+    letter-spacing: 0.1rem;
+    height: auto;
+
+}
+
+
+.ab-img-container {
+    width: 300px; /* Adjust as needed */
+    height: 360px; /* Adjust as needed */
+    border: 2px solid white;
+    margin-left: 12vw;
+    margin-right: 5vw;
+    overflow: hidden; /* Hide any overflow if the image exceeds container dimensions */
+}
+
+.about_img {
+    width: 100%; /* Ensure the image takes up the entire container width */
+    height: 100%; /* Ensure the image takes up the entire container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+
+
+@media (max-width:570px) {
+    
+
+
+
+    .ab-img-container{
+        margin-top: 5vh;
+        height: 70%;
+    }
+
+
+    .ab-desc-container p{
+        font-size: 2vw;
+    
+    }
+
+    .ab-head{
+        font-size: 5vw;   
+        font-weight: 400;
+    }
+    
+
+}

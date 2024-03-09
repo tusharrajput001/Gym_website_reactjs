@@ -1,0 +1,87 @@
+
+
+.desc{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    width: 30vw;
+    align-items: center;
+    margin-top: 1vw;
+    border: 1.5px solid rgb(250, 248, 248);
+    box-sizing: border-box;
+    border-radius: 2vw;
+    border-style:solid;
+    box-shadow: 0 4px 8px 0 rgba(244, 248, 0, 0.2), 0 6px 20px 0 rgba(221, 218, 9, 0.19);
+    background-color: rgba(11, 11, 11, 0.719);
+
+   
+}
+
+
+.contact-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    padding-top: 20px; 
+    height: auto;
+    width: auto;
+}
+
+
+
+
+.contact-sec h2{
+    font-size: 3vw;
+}
+
+
+
+.headingClass{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input1{
+    margin-top: 1vh;
+    height: 4vw;
+    width: 26vw;
+    border: 1px solid white;
+    background-color: aliceblue;
+    border-radius: 27px;
+    text-align: center;
+}
+
+.msg-input{
+    margin-top: .7rem;
+    height: 9vw;
+    width: 26vw;
+    border: 1px solid white;
+    background-color: aliceblue;
+    border-radius: 27px;
+    text-align: center;
+}
+
+.send-btn{
+    height: 3.5vw;
+    width: 26vw;
+    background-color: rgb(71, 151, 204);
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.send-btn:hover{
+    background-color: rgba(242, 230, 11, 0.81);
+}
+
+
