@@ -1,0 +1,64 @@
+.memb-card{
+    width: 40vh;
+    height: 50vh;
+    border: 2px solid rgb(255, 253, 253);
+    border-radius: 20px;
+    margin: 5vw;
+}
+
+
+.mem-ico{
+    text-decoration: none;
+}
+
+
+.card-layout{
+    padding: 25px;
+    margin: 10px;
+
+
+}
+
+.memb-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.memb-btn button{
+    font-size: 2.6vh;
+    color: black;
+    padding: 1vh;
+    border-radius: 20px;
+
+}
+
+
+@media (max-width:1309px){
+    .memb-card{
+        width: 30vh;
+        height: 42vh;
+        border: 1.7px solid rgb(255, 253, 253);
+        border-radius: 20px;
+        margin: 3vw;
+    }
+    
+
+    .card-layout{
+        padding: 5px;
+        margin: 6px;
+        padding-bottom: 3vh;
+    
+
+    }
+
+    .memb-btn button{
+        font-size: 1.7vh;
+        color: black;
+        /* padding: .7vh; */
+        border-radius: 20px;
+    
+    }
+
+
+}
