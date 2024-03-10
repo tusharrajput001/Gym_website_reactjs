@@ -2,8 +2,9 @@
     color: white;
     font-size: 6vh;
     display: flex;    
-    font-weight: 500;
-    margin: 0;
+    font-weight: 600;
+    margin-top: 10vh;
+    justify-content: center;
 
 }
 
@@ -11,7 +12,7 @@
 .ab-con{
     display: flex;
     flex-direction:row;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 10vw;
 }
 
@@ -26,6 +27,8 @@
 .ab-desc-container p{
     letter-spacing: 0.1rem;
     height: auto;
+    opacity: 50%;
+    font-size: 1.3rem;
 
 }
 
