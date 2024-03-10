@@ -12,6 +12,7 @@
     display: flex;
     flex-direction:row;
     margin-top: 20vh;
+    margin-bottom: 10vw;
 }
 
 
@@ -44,28 +45,54 @@
     object-fit: cover; /* Maintain aspect ratio and cover the entire container */
 }
 
-
-
-@media (max-width:570px) {
-    
-
-
+@media (max-width:768px) {
 
     .ab-img-container{
-        margin-top: 5vh;
-        height: 70%;
+        margin-top: 3vw;
+        height: 200px;
+        
+    }
+    .ab-desc-container{
+        width: 90vw;
+        margin-left: 4vw;
+    
     }
 
-
     .ab-desc-container p{
-        font-size: 2vw;
+        font-size: 1.7vw;
+        font-style: normal;
+        font-weight: 100;
     
     }
 
     .ab-head{
         font-size: 5vw;   
-        font-weight: 400;
+        font-weight: 300;
     }
     
+}
+
+@media (max-width:534px) {
+    .ab-img-container{
+        margin-top: 6vw;
+        margin-left: 3vw;
+        width: 150px;
+        height: 120px;
+        
+    }
+
+
+    .ab-desc-container p{
+        font-size: 1.9vw;
+        font-style: normal;
+        
+    
+    }
+
+    .ab-head{
+        font-size: 5vw;   
+        font-weight: 200;
+    }
+
 
 }

@@ -7,7 +7,7 @@ function Expcard({cardImg,cardTitle}) {
     <div className='card-strip'>
         <div>
             <img className='card-img'src={cardImg}/>
-            <div className='v-line'>.</div>
+            
             <div className='card-head'>{cardTitle}</div>
         </div>
     </div>

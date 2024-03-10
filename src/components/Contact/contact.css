@@ -3,7 +3,6 @@
 .desc{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
     text-align: center;
     font-size: 1vw;
 }
@@ -66,6 +65,8 @@
 .headingClass{
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 

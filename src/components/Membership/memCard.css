@@ -1,9 +1,11 @@
 .memb-card{
-    width: 40vh;
-    height: 50vh;
+    width:14vw;
+    height: 20vw;
     border: 2px solid rgb(255, 253, 253);
     border-radius: 20px;
-    margin: 5vw;
+    margin: 4vw;
+    font-size: .8vw;
+    /* background-color: rgba(5, 22, 155, 0.442); */
 }
 
 
@@ -22,38 +24,41 @@
 .memb-btn{
     display: flex;
     justify-content: center;
+    
 }
 
 
 .memb-btn button{
-    font-size: 2.6vh;
+    font-size: .8vw;
     color: black;
-    padding: 1vh;
+    padding: .31vw;
     border-radius: 20px;
 
 }
 
 
-@media (max-width:1309px){
+
+@media (max-width:1500px){
     .memb-card{
-        width: 30vh;
-        height: 42vh;
+        width: 25vw;
+        height: 32vw;
         border: 1.7px solid rgb(255, 253, 253);
         border-radius: 20px;
         margin: 3vw;
+        font-size: 1.7vw;
     }
     
 
     .card-layout{
-        padding: 5px;
-        margin: 6px;
-        padding-bottom: 3vh;
+        padding: 10px;
+        margin: 0px;
+        padding-bottom: 2vw;
     
 
     }
 
     .memb-btn button{
-        font-size: 1.7vh;
+        font-size: 1.5vw;
         color: black;
         /* padding: .7vh; */
         border-radius: 20px;
@@ -62,3 +67,71 @@
 
 
 }
+
+
+
+@media (max-width:500px){
+    .memb-card{
+        width: 30vw;
+        height: 35vw;
+        border: 1.7px solid rgb(255, 253, 253);
+        border-radius: 20px;
+        margin-right: 7vw;
+        margin-left: 7vw;
+        font-size: 1.7vw;
+    }
+    
+
+    .card-layout{
+        padding: 13px;
+        padding-bottom: 2vw;
+    
+
+    }
+
+    .memb-btn button{
+        font-size: 3vw;
+        color: black;
+        /* padding: .7vh; */
+        border-radius: 20px;
+    
+    }
+
+
+}
+
+
+@media (max-width:400px){
+    .memb-card{
+        width: 40vw;
+        height: 40vw;
+        border: 1.2px solid rgb(255, 253, 253);
+        border-radius: 20px;
+        margin-right: 01vw;
+        margin-left: 01vw;
+        font-size: 1.8vw;
+    }
+    
+
+    .card-layout{
+        padding: 11px;
+        padding-bottom: 4vw;
+    
+
+    }
+
+    .memb-btn button{
+        font-size: 3vw;
+        padding: 1vw;
+        color: black;
+        /* padding: .7vh; */
+        border-radius: 20px;
+    
+    }
+
+
+}
+
+
+
+

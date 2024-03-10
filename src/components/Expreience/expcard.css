@@ -1,7 +1,7 @@
 .card-strip{
-    width: 400px;
-    height: 90px;
-    border: 4px solid rgba(255, 255, 255, 0.809);
+    width: 250px;
+    height: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.809);
     border-radius: 35px;
     background-color: yellow;
     opacity: 80%;
@@ -9,33 +9,92 @@
 }
 
 .card-img{
-    width: 80px;
-    height: 90px;
+    width: 40px;
+    height: 50px;
     margin-left: 25px;
-    
-}
-
-    
-.v-line{
-    position: relative;
-    height: 120px;
-    width: 4px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 125px;
-    bottom: 123px;
-    z-index: 10;
-   
+    margin-top: 10px;
 }
 
 
 .card-head{
+    display: flex;
     position: relative;
     color: rgb(0, 0, 0);
-    font-size: 2.5vh;
+    font-size: 2.0vh;
     font-style:normal;
-    font-weight:600;
-    bottom: 185px;
-    text-align:center;
-    left: 45px;
+    font-weight:700;
+    /* text-align:center; */
+    justify-content: center;
+    bottom: 38px;
+    left: 25px;
 }
 
+
+@media(max-width:1389px){
+    .card-strip{
+        width: 180px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.809);
+        border-radius: 35px;
+        background-color: yellow;
+        opacity: 80%;
+        margin: 4px;
+    }
+    
+
+    .card-img{
+        width: 35px;
+        height: 34px;
+   
+    }
+    
+    
+    .card-head{
+        display: flex;
+        position: relative;
+        color: rgb(0, 0, 0);
+        font-size: 1.6vh;
+        font-style:normal;
+        font-weight:700;
+        /* text-align:center; */
+        justify-content: center;
+        bottom: 30px;
+        left: 25px;
+    }
+}   
+
+
+
+@media(max-width:976px){
+    .card-strip{
+        width: 140px;
+        height: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.809);
+        border-radius: 35px;
+        background-color: yellow;
+        opacity: 80%;
+        margin: 4px;
+    }
+    
+
+    .card-img{
+        width: 25px;
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 2px;
+   
+    }
+    
+    
+    .card-head{
+        display: flex;
+        position: relative;
+        color: rgb(0, 0, 0);
+        font-size: 1.1vh;
+        font-style:normal;
+        font-weight:700;
+        justify-content: center;
+        bottom: 25px;
+        left: 20px;
+    }
+}   
