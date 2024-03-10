@@ -1,13 +1,29 @@
 .memb-card{
     width:14vw;
     height: 20vw;
-    border: 2px solid rgb(255, 253, 253);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     margin: 4vw;
-    font-size: .8vw;
-    /* background-color: rgba(5, 22, 155, 0.442); */
+    background-color: #f3f307a2;
 }
 
+
+
+.memb-card h1{
+    font-size: 2vw;
+}
+
+.memb-card h2{
+    margin-top: 10px;
+    font-size: 1.4vw;
+    margin-bottom: 20px;
+}
+
+.memb-card p{
+    font-size: 15px;
+    opacity: 88%;
+    margin-top: 5px;
+}
 
 .mem-ico{
     text-decoration: none;
@@ -15,25 +31,29 @@
 
 
 .card-layout{
-    padding: 25px;
-    margin: 10px;
-
-
+    padding: 20px;
+    margin: 7px;
 }
+
 
 .memb-btn{
     display: flex;
     justify-content: center;
+    margin-top: 35px;
     
 }
 
 
 .memb-btn button{
-    font-size: .8vw;
+    font-size: 1vw;
     color: black;
-    padding: .31vw;
+    padding: .41vw;
     border-radius: 20px;
+}
 
+
+.memb-btn button:hover{
+    background-color: #dedcdc;
 }
 
 
@@ -42,39 +62,104 @@
     .memb-card{
         width: 25vw;
         height: 32vw;
-        border: 1.7px solid rgb(255, 253, 253);
+        border: 1.7px solid rgb(0, 0, 0);
         border-radius: 20px;
-        margin: 3vw;
-        font-size: 1.7vw;
+        margin: 2vw;
+        
     }
     
+    .memb-card h1{
+        font-size: 3.5vw;
+    }
+    
+    .memb-card h2{
+        font-size: 2.4vw;
+    }
+    
+    .memb-card p{
+        font-size: 8px;
+
+    }
 
     .card-layout{
         padding: 10px;
-        margin: 0px;
+        margin: 25px;
         padding-bottom: 2vw;
-    
 
     }
 
     .memb-btn button{
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         color: black;
-        /* padding: .7vh; */
         border-radius: 20px;
-    
     }
 
 
 }
 
 
+@media (max-width:1700px) {
+    .memb-card {
+        font-size: 13px;
+    }
 
-@media (max-width:500px){
+    .memb-card p{
+        font-size: 7px;
+
+    }
+}
+
+
+
+@media (max-width:939px) {
+    .card-layout{
+        padding: 10px;
+        margin: 3px;
+        padding-bottom: 2vw;
+
+    }
+}
+
+
+@media (max-width:741px) {
+    .memb-btn button{
+        font-size: 1.6vw;   
+    }
+
+    .memb-btn{
+        margin-top: 1px;
+    }
+
+    
+}
+
+
+
+@media (max-width:725px) {
+
+    .memb-card {
+        font-size: 10px;
+    }
+
+    .card-layout{
+        padding: 5px;
+        margin: 5px;
+        padding-bottom: 3vw;
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:545px){
     .memb-card{
         width: 30vw;
         height: 35vw;
-        border: 1.7px solid rgb(255, 253, 253);
+        border: 1.7px solid rgb(23, 22, 22);
         border-radius: 20px;
         margin-right: 7vw;
         margin-left: 7vw;
@@ -90,7 +175,7 @@
     }
 
     .memb-btn button{
-        font-size: 3vw;
+        font-size: 2.3vw;
         color: black;
         /* padding: .7vh; */
         border-radius: 20px;
@@ -101,11 +186,11 @@
 }
 
 
-@media (max-width:400px){
+@media (max-width:495px){
     .memb-card{
         width: 40vw;
         height: 40vw;
-        border: 1.2px solid rgb(255, 253, 253);
+        border: 1.2px solid rgb(4, 4, 4);
         border-radius: 20px;
         margin-right: 01vw;
         margin-left: 01vw;

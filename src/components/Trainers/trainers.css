@@ -1,10 +1,11 @@
 .tr-head{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 3vw;
     display: flex;    
     font-weight: 600;
     justify-content: center;
     margin-top: 8vw;
+    text-shadow: .1vw .1vw rgb(148, 148, 148);
 }
 
 

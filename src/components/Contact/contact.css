@@ -67,6 +67,7 @@
     justify-content: center;
     margin-bottom: 0;
     padding-bottom: 0;
+    text-shadow: .1vw .1vw rgb(148, 148, 148);
 }
 
 
@@ -74,7 +75,7 @@
     margin-top: 1vh;
     height: 4vw;
     width: 26vw;
-    border: 1px solid white;
+    border: 1px solid rgb(14, 13, 13);
     background-color: aliceblue;
     border-radius: 27px;
     text-align: center;

@@ -12,6 +12,9 @@ function Navbar() {
 
   return (
     <>
+    <div className='navbar-color'> 
+
+
       <div className={`nav-container ${navbarBackground ? 'gray-bg' : ''}`}>
         <a href="/" className='Logo'>Radiant Gym</a>
         <div className='menu' onClick={handleMenuClick}>
@@ -31,6 +34,8 @@ function Navbar() {
           Contact US
         </button>
       </div>
+      
+    </div>
     </>
   );
 }

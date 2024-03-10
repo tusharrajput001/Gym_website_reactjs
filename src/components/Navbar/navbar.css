@@ -2,8 +2,10 @@
     font-size: xx-large;
     text-decoration: none;
     margin: 10px 0px;
-    color: white;
+    color: yellow;
+    text-shadow: 2px 2px rgb(123, 107, 14);
     margin-left: 10px;
+    opacity: 70%;
 }
 
 .nav-container ul{
@@ -27,8 +29,10 @@
 
 .nav-container ul li a{
     margin: 0px 14px;
-    color: white;
+    color: yellow;
+    opacity: 60%;
     text-decoration: none;
+    
 
 }
 
@@ -50,6 +54,7 @@
     margin: 0; /* Remove any default margin */
     padding: 0;
     z-index: 999;
+    
    
  
 
@@ -69,7 +74,7 @@
 
 
 .nav_btn:hover{
-    background-color: rgb(114, 114, 114);
+    background-color: yellow;
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -84,11 +89,10 @@
     justify-content: space-between;
     width: 2.25rem;
     height: 2.1rem;
-    align-items: center;
-    
-     
-    
+    align-items: center;   
 }
+
+
 
 .nav-container .menu span{
     height: 1.4rem;

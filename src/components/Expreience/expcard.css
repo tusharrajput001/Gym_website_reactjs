@@ -1,10 +1,10 @@
 .card-strip{
     width: 250px;
     height: 70px;
-    border: 2px solid rgba(255, 255, 255, 0.809);
+    border: 2px solid rgba(0, 0, 0, 0.809);
     border-radius: 35px;
-    background-color: yellow;
-    opacity: 80%;
+    background-color: rgba(255, 255, 0, 0.653);
+    box-shadow: .1vw .3vw black;
     margin: 10px;
 }
 
@@ -23,7 +23,6 @@
     font-size: 2.0vh;
     font-style:normal;
     font-weight:700;
-    /* text-align:center; */
     justify-content: center;
     bottom: 38px;
     left: 25px;
@@ -34,7 +33,7 @@
     .card-strip{
         width: 180px;
         height: 50px;
-        border: 1px solid rgba(255, 255, 255, 0.809);
+        border: 2px solid rgba(5, 5, 5, 0.809);
         border-radius: 35px;
         background-color: yellow;
         opacity: 80%;

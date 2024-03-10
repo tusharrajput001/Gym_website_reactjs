@@ -1,13 +1,15 @@
 .enroll-img{
     width: 100%;
     height: auto;
-    filter:opacity(12%);
+    filter:opacity(70%);
+    
 
 }
 
 
 .enroll-div{
     position: relative;
+   
 }
 
 
@@ -17,12 +19,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;}
+  color: rgb(17, 17, 17);
+
+}
 
   
 .enroll-div h2 {
     font-size: 4vw; 
-    color: rgb(212, 212, 19);
+    color: yellow;
+    opacity: 50%;
     text-align: center; 
     
 }
@@ -31,8 +36,9 @@
 
 .enroll-div p {
     font-size: 1vw; 
-    color: rgba(255, 255, 0, 0.847);
+    color: black;
     text-align: center;
+    opacity: 60%;
 }
 
 .text-overlay h2,
@@ -40,12 +46,15 @@
   margin: 0;
 }
 
-
+.text-overlay h2{
+  text-shadow: 2px 2px black;
+}
 
 
 .btn-enroll {
     border-radius: 1.9rem;
-    background-color: rgb(231, 229, 114);
+    background-color: yellow;
+    opacity: 80%;
     border: none;
     color: #000000;
     text-align: center;

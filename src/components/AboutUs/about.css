@@ -1,10 +1,11 @@
 .ab-head{
-    color: white;
+    color: rgb(11, 10, 10);
     font-size: 6vh;
     display: flex;    
     font-weight: 600;
     margin-top: 10vh;
     justify-content: center;
+    text-shadow: .1vw .1vw rgb(18, 18, 18);
 
 }
 
@@ -36,7 +37,8 @@
 .ab-img-container {
     width: 300px; /* Adjust as needed */
     height: 360px; /* Adjust as needed */
-    border: 2px solid white;
+    border: .6vw solid rgb(19, 18, 18);
+    border-radius: 17px;
     margin-left: 12vw;
     margin-right: 5vw;
     overflow: hidden; /* Hide any overflow if the image exceeds container dimensions */

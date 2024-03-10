@@ -12,14 +12,13 @@
 
 
 body{
-    background-color: #000000;
+    background-color: #FAF9F6;
     overflow-x: hidden;
     
 }
 
 *{
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
-    color: rgb(8, 8, 8);
     margin: 0;
 }
 
