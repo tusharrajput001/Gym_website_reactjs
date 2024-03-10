@@ -2,9 +2,9 @@
   box-shadow: 0 4px 8px 0 rgba(212, 212, 7, 0.2);
   width: 228px; /* Fixed width */
   height: 425px; /* Fixed height */
-  margin-top: 70px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 6vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
   text-align: center;
   border: 1px solid rgb(219, 218, 218);
   border-radius: 50px;
@@ -120,6 +120,53 @@
   }
 
 }
+
+
+@media (max-width:369px) {
+  .card-cntr{
+    height: 160px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }  
+
+  .card-imga{
+    height: 80px;
+    width: 87%;
+  }
+
+  .card-cntr p{
+    font-size: .5rem;
+  }
+
+}
+
+
+
+@media (max-width:339px) {
+  .card-cntr{
+    height: 150px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }  
+
+  .card-imga{
+    height: 70px;
+    width: 92%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .card-cntr p{
+    font-size: .45rem;
+    
+  }
+
+}
+
+
 
 
 

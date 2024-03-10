@@ -4,7 +4,7 @@ import Hero from './components/Hero/hero'
 // import Experience from './components/Expreience/experience'
 import Enroll from './components/Enroll/enroll'
 import Trainers from './components/Trainers/trainers'
-// import Membership from './components/Membership/membership'
+import Membership from './components/Membership/membership'
 import About from './components/AboutUs/about'
 import Contact from './components/Contact/contact'
 
@@ -18,7 +18,7 @@ function App() {
       <Enroll/>
       {/* <Experience/> */}
       <Trainers/>
-      {/* <Membership/> */}
+      <Membership/>
       <About/>
       <Contact/>
 
