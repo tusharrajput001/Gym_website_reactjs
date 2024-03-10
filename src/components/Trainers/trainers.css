@@ -17,9 +17,13 @@
 }
 
 
+
+
+
 @media (max-width: 800px) {
     .cards-con .card-cntr {
       max-width: calc(50% - 20px); /* Two cards per row */
     }
   }
   
+

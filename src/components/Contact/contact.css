@@ -5,13 +5,14 @@
     justify-content: center;
     margin-top: 10px;
     text-align: center;
+    font-size: 1vw;
 }
 
 
 .form-container{
     display: flex;
     flex-direction: column; 
-    height: auto;
+    height: 100%;
     width: 30vw;
     align-items: center;
     margin-top: 1vw;
@@ -25,20 +26,38 @@
    
 }
 
+.map-frame{
+    border: 2px solid rgb(115, 113, 113);
+    margin-top: 2rem;
+    display: flex;
+    height: 30vw;
+    border-radius: 1.2vw;
+
+}
+
+.contact-sec h3{
+    font-size: 1vw;
+
+}
 
 .contact-sec{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 5vw;
     padding-top: 20px; 
     height: auto;
-    width: auto;
+    margin-left: 6vw;
+    /* width: 100%; */
+}
+
+.contact-sec input{
+    color: rgb(5, 5, 5);
 }
 
 
 
-
-.contact-sec h2{
+.headingClass{
     font-size: 3vw;
 }
 
