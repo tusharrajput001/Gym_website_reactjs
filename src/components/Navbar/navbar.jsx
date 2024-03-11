@@ -25,9 +25,9 @@ function Navbar() {
 
         <ul className={`nav_list ${menuOpen ? "open" : ""}`}>
           <li><a href='/'>Home</a></li>
-          <li><a href='#aboutus'>About Us</a></li>
           <li><a href='#membership'>Membership</a></li>
           <li><a href='#trainers'>Trainers</a></li>
+          <li><a href='#aboutus'>About Us</a></li>
         </ul>
 
         <button className='nav_btn'>

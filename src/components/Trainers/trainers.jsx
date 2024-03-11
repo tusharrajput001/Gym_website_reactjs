@@ -12,6 +12,7 @@ function Trainers() {
   return (
     <>
     <div className='tr-head'>Our Trainers</div>
+    <p className='tr-p'>Believe in the power of a motivating group fitness community..</p>
     <div className='cards-con'>
         <Trcard tr_img={tr1} tr_name="Certified Trainer" tr_title="Mens Physique" tr_unv = "Rajveer Shishodia" tr_ig="https://www.instagram.com/rajveer_fitness_series/?hl=en" tr_fb="https://www.facebook.com/RajveerFitnessSeries/"/>
         <Trcard tr_img={tr2} tr_name="Certified Trainer" tr_title="Womens Physique" tr_unv = "Miranda Cohen" tr_ig="https://www.instagram.com/mirandacohenfit/" tr_fb="https://www.facebook.com/mirandacohen.official/"/>

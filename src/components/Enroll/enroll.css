@@ -95,3 +95,10 @@
 
 
 
+.wave-enroll{
+ 
+  position: relative;
+  display: block;
+  height: 3vw;
+  z-index: -10;
+}
