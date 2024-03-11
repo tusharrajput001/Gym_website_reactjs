@@ -17,6 +17,24 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
+}
+
+
+.waves{
+    position: relative;
+    display: block;
+    height: 0px;
+    z-index: 0;
+
+}
+
+
+
+.waves2{
+    position: relative;
+    display: block;
+    height: 10vw;
+    z-index: -10;
     
 }

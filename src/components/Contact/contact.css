@@ -35,8 +35,9 @@
 }
 
 .contact-sec h3{
-    font-size: 1vw;
-
+    font-size: 1.2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .contact-sec{
@@ -44,14 +45,15 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 5vw;
-    padding-top: 20px; 
+    padding-top: 1.3vw; 
     height: auto;
     margin-left: 6vw;
-    /* width: 100%; */
+    flex-wrap: wrap;
 }
 
 .contact-sec input{
     color: rgb(5, 5, 5);
+    font-size: 1.5vw;
 }
 
 
