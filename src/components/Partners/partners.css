@@ -1,20 +1,24 @@
 .img-sl-con{
     width: 100%;
-    height: 200px;
+    height: 13vw;
 }
 
 
 .img-sl-con img{
     
     width: 90%;
-    height: 18vh;
+    height: 7vw;
 }
 
 .pr-head{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+    font-size: 2vw;
 }
 
 .awssld__content{
     background-color: #dedcdc;
+    height: 12vw;
+    width: 100%;
 }

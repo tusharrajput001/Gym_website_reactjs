@@ -2,7 +2,7 @@
     font-size: xx-large;
     text-decoration: none;
     margin: 10px 0px;
-    color: yellow;
+    color: rgb(255, 255, 253);
     text-shadow: 2px 2px rgb(123, 107, 14);
     margin-left: 10px;
     opacity: 70%;
@@ -29,7 +29,7 @@
 
 .nav-container ul li a{
     margin: 0px 14px;
-    color: yellow;
+    color: rgb(252, 252, 250);
     opacity: 60%;
     text-decoration: none;
     
@@ -78,7 +78,9 @@
     transition: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-
+.nav-container{
+    background-color: #0000007c;
+}
 
 .nav-container .menu{
     display: none;
@@ -106,7 +108,7 @@
 
     /* Add a new class for gray background */
     .nav-container.gray-bg {
-        background-color: #888888cf; /* Change to the gray color you prefer */
+        background-color: #000000ac; /* Change to the gray color you prefer */
     }
     
     /* Add transition for smooth color change */
