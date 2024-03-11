@@ -26,7 +26,7 @@
 
 
 .card-cntr h1{
-  font-size: 1vw;
+  font-size: 2vh;
   color: rgb(0, 0, 0);
   margin-bottom: .7vw;
 }
@@ -38,7 +38,7 @@
 
 .tr-title {
     color: rgb(192, 191, 191);
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
   
 
@@ -67,26 +67,20 @@
   .card-cntr{
     height: 385px;
   }
-}
-
-
-
-@media (max-width:1003px) {
-  .card-cntr{
-    height: 350px;
-    width: 210px;
+  .tr-title {
+    color: rgb(192, 191, 191);
+    font-size: 1.8vh;
   }
-
-
+  
 }
 
-@media (max-width: 828px) {
-  .card-cntr{
-    width: 180px;
-  }  
-}
 
-@media (max-width: 728px) {
+
+
+
+
+
+@media (max-width: 480px) {
   .card-cntr{
     height: 250px;
     width: 150px;

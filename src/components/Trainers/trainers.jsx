@@ -2,7 +2,7 @@ import React from 'react'
 import './trainers.css'
 import Trcard from './trcard'
 import tr1 from '../../assets/trainer1.jpg'
-import tr2 from '../../assets/tr2.jpeg'
+import tr2 from '../../assets/cohenn.jpg'
 import tr3 from '../../assets/t3.jpg'
 
 
