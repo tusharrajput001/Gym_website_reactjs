@@ -4,7 +4,6 @@ import HeroImg from '../../assets/hero.jpg';
 
 export default function Hero() {
   useEffect(() => {
-    // Add a class to trigger animation after component mounts
     document.querySelector('.hero-intro').classList.add('slideIn');
   }, []);
 

@@ -36,3 +36,31 @@
     }
   }
   
+
+  @media (max-width:768px) {
+    
+    .img-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .img-hero {
+      width: 150vw;
+      height: 105vw;
+      overflow: hidden;
+    }
+
+    .hero-intro {
+      position: absolute;
+      bottom: 30%; /* Start position at some space from bottom */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+      font-size: 12vw; /* Adjust font size */
+      opacity: 10%;
+      animation: slideIn 1s forwards; /* Apply animation */
+    }
+
+  }
