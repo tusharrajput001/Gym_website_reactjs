@@ -1,6 +1,6 @@
 .tr-head{
     color: rgb(0, 0, 0);
-    font-size: 3vw;
+    font-size: 5vh;
     display: flex;    
     font-weight: 600;
     justify-content: center;
@@ -26,7 +26,25 @@
 }
 
 
+@media(max-width:1179px){
+  .tr-p{
+    font-size: 1.6vw;
+  }
+}
 
+
+
+
+@media (max-width:814px) {
+  .tr-head{
+    font-size: 4vh;
+  }
+
+  .tr-p{
+    font-size: 1.9vw;
+  }
+
+}
 
 
 @media (max-width: 800px) {
@@ -36,3 +54,11 @@
   }
   
 
+
+  @media(max-width:567px){
+    .tr-p{
+      font-size: 2.5vw;
+    }
+  }
+  
+  

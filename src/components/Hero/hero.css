@@ -2,27 +2,37 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+  }
   
-}
-
-.img-hero {
+  .img-hero {
     width: 100%;
     height: auto;
-}
-
-.hero-intro {
+  }
+  
+  .hero-intro {
     position: absolute;
-    top: 50%;
+    bottom: 30%; /* Start position at some space from bottom */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     text-align: center;
     color: white;
-    font-size: 10vw; /* Adjust font size using viewport width units */
-    opacity: 20%;
-
-}
-
-.hero-desc {
+    font-size: 8vw; /* Adjust font size */
+    opacity: 10%;
+    animation: slideIn 1s forwards; /* Apply animation */
+  }
+  
+  .hero-desc {
     margin: 0;
-}
-
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translate(-50%, 100%); /* Start position */
+      opacity: 70%; /* Start opacity */
+    }
+    100% {
+      transform: translate(-50%, 0); /* End position */
+      opacity: 30%; /* End opacity */
+    }
+  }
+  

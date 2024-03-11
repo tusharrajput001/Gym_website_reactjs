@@ -38,14 +38,14 @@
 
 .tr-title {
     color: rgb(192, 191, 191);
-    font-size: 1vw;
+    font-size: 1.3vw;
   }
   
 
   
 .card-cntr a {
     text-decoration: none;
-    font-size: .9vw;
+    font-size: 4vh;
     color: rgb(14, 14, 14);
   }
   
@@ -57,7 +57,8 @@
 
 
 .tr-icons{
-  margin: 0vw 1vw;
+  margin: 0vw 1.2vw;
+
 }
 
 
@@ -88,7 +89,7 @@
 @media (max-width: 728px) {
   .card-cntr{
     height: 250px;
-    width: 120px;
+    width: 150px;
     margin-left: 10px;
     margin-right: 10px;
   }  
@@ -103,84 +104,4 @@
   }
 
 }
-
-
-@media (max-width:508px) {
-  .card-cntr{
-    height: 180px;
-    width: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }  
-
-  .card-imga{
-    height: 100px;
-    width: 87%;
-  }
-
-  .card-cntr p{
-    font-size: .5rem;
-  }
-
-}
-
-
-@media (max-width:369px) {
-  .card-cntr{
-    height: 160px;
-    width: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }  
-
-  .card-imga{
-    height: 80px;
-    width: 87%;
-  }
-
-  .card-cntr p{
-    font-size: .5rem;
-  }
-
-}
-
-
-
-@media (max-width:339px) {
-  .card-cntr{
-    height: 150px;
-    width: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }  
-
-  .card-imga{
-    height: 70px;
-    width: 92%;
-    margin: 0;
-    padding: 0;
-    
-  }
-
-  .card-cntr p{
-    font-size: .45rem;
-    
-  }
-
-}
-
-
-
-
-
-
-
-@media (max-width: 200px) {
-  .cards-con .card-cntr {
-    width: calc(50% - 40px); /* Two cards per row with margin */
-  }
-}
-
-
-
 
