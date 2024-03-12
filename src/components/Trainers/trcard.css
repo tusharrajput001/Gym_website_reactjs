@@ -1,7 +1,7 @@
 .card-cntr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 228px; /* Fixed width */
-  height: 425px; /* Fixed height */
+  height: auto; /* Fixed height */
   margin-top: 6vw;
   margin-left: 1vw;
   margin-right: 1vw;
@@ -64,9 +64,7 @@
 
 
 @media (max-width:1455px) {
-  .card-cntr{
-    height: 385px;
-  }
+
   .tr-title {
     color: rgb(192, 191, 191);
     font-size: 1.8vh;
@@ -82,7 +80,7 @@
 
 @media (max-width: 480px) {
   .card-cntr{
-    height: 250px;
+  
     width: 150px;
     margin-left: 10px;
     margin-right: 10px;
