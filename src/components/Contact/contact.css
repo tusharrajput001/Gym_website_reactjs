@@ -1,32 +1,35 @@
 
+.headingClass{
+    font-size: 3.5em;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-shadow: .1vw .1vw rgb(148, 148, 148);
+    
+}
+
 
 .desc{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3em;
 }
 
 
 .form-container{
     display: flex;
     flex-direction: column; 
-    height: 100%;
     width: 30vw;
     align-items: center;
     margin-top: 1vw;
-    border: 1.5px solid rgb(250, 248, 248);
-    box-sizing: border-box;
-    border-radius: 2vw;
-    border-style:solid;
-    box-shadow: 0 4px 8px 0 rgba(244, 248, 0, 0.2), 0 6px 20px 0 rgba(221, 218, 9, 0.19);
-    background-color: rgba(11, 11, 11, 0.719);
-
-   
+    border: 1.5px solid rgb(11, 10, 10);
 }
 
 .map-frame{
-    border: 2px solid rgb(115, 113, 113);
+    border: 2px solid rgb(6, 6, 6);
     margin-top: 2rem;
     display: flex;
     height: 30vw;
@@ -35,9 +38,9 @@
 }
 
 .contact-sec h3{
-    font-size: 1.2vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 3vh;
+    margin: 1em 1em;
+    width: auto;
 }
 
 .contact-sec{
@@ -53,51 +56,30 @@
 
 .contact-sec input{
     color: rgb(5, 5, 5);
-    font-size: 1.5vw;
-}
-
-
-
-.headingClass{
-    font-size: 3vw;
-    margin-top: 10vw;
-}
-
-
-
-.headingClass{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-shadow: .1vw .1vw rgb(148, 148, 148);
+    font-size: 2vh;
 }
 
 
 .input1{
     margin-top: 1vh;
-    height: 4vw;
-    width: 26vw;
-    border: 1px solid rgb(14, 13, 13);
-    background-color: aliceblue;
-    border-radius: 27px;
+    height: 2em;
+    width: 23vw;
+    border: .2px solid rgba(14, 13, 13, 0.391);
     text-align: center;
 }
 
 .msg-input{
     margin-top: .7rem;
-    height: 9vw;
-    width: 26vw;
-    border: 1px solid white;
-    background-color: aliceblue;
-    border-radius: 27px;
+    height: 9em;
+    width: 23vw;
+    border: .2px solid rgba(14, 13, 13, 0.391);
     text-align: center;
 }
 
 .send-btn{
-    height: 3.5vw;
-    width: 26vw;
-    background-color: rgb(71, 151, 204);
+    height: 4em;
+    width: 20vw;
+    background-color: rgb(240, 240, 240);
     border: 1px solid black;
     border-radius: 50px;
     margin-top: 1.2rem;
@@ -105,7 +87,145 @@
 }
 
 .send-btn:hover{
-    background-color: rgba(242, 230, 11, 0.81);
+    background-color: yellow;
 }
 
 
+
+
+@media (max-width:1112px) {
+        
+    .headingClass{
+        font-size: 3em;   
+    }
+
+
+    .desc{
+        font-size: 1.2em;
+    }
+
+
+    .form-container{
+        width: 70vw;
+        margin-right: 35px;
+    }
+
+    .map-frame{
+        height: 50vw;
+        width: 60vw;
+        margin-right: 35px;
+
+
+    }
+
+    .contact-sec h3{
+        font-size: 2.5vh;
+    }
+
+    .contact-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw;
+        padding-top: 1.3vw; 
+        height: auto;
+        margin-left: 6vw;
+        flex-wrap: wrap;
+    }
+
+    .contact-sec input{
+
+        font-size: 2.7vw;
+    }
+
+
+    .input1{
+        height: 2em;
+        width: 53vw;
+    }
+
+    .msg-input{
+        height: 7em;
+        width: 53vw;
+
+    }
+
+    .send-btn{
+        height: 3em;
+        width: 25vw;
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+
+
+@media (max-width:480px) {
+        
+    .headingClass{
+        font-size: 2.4em;   
+    }
+
+
+    .desc{
+        font-size: 1em;
+    }
+
+
+    .form-container{
+        width: 80vw;
+        margin-right: 16px;
+    }
+
+    .map-frame{
+        height: 70vw;
+        width: 80vw;
+        margin-right: 16px;
+
+
+    }
+
+    .contact-sec h3{
+        font-size: 2vh;
+    }
+
+    .contact-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw;
+        padding-top: 1.3vw; 
+        height: auto;
+        margin-left: 6vw;
+        flex-wrap: wrap;
+    }
+
+    .contact-sec input{
+
+        font-size: 5.7vw;
+    }
+
+
+    .input1{
+        height: 2em;
+        width: 65vw;
+    }
+
+    .msg-input{
+        height: 7em;
+        width: 65vw;
+       
+
+    }
+
+    .send-btn{
+        height: 3em;
+        width: 35vw;
+        font-size: 1.2rem;
+    }
+
+    
+}
