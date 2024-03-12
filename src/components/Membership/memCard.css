@@ -6,6 +6,17 @@
     margin: 4vw;
     background-color: #f3f307f7;
     z-index: 100;
+    
+}
+
+.memb-card:hover{
+    transition: .6s;
+    box-shadow: 
+        0 0 0 3px rgba(0, 0, 0, 1), 
+        0 0 0 6px rgba(255, 255, 255, 1),
+        0 0 0 9px rgba(0, 0, 0, 1), 
+        0 0 0 12px rgba(255, 255, 255, 1),
+        0 0 0 15px rgba(0, 0, 0, 1);
 }
 
 
@@ -45,6 +56,7 @@
     display: flex;
     justify-content: center;
     margin-top: 2.8vw;
+
     
 }
 
@@ -54,11 +66,12 @@
     color: black;
     padding: .9vw;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 
 .memb-btn button:hover{
-    background-color: #0c5dcfca;
+    background-color: #e75d19ca;
 }
 
 
