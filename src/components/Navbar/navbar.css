@@ -15,6 +15,12 @@
 
 }
 
+.nav-container li{
+    cursor: pointer;
+}
+
+
+
 .nav-container ul.open{
     display: flex;
 }

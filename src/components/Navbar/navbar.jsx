@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,10 +25,10 @@ function Navbar() {
         </div>
 
         <ul className={`nav_list ${menuOpen ? "open" : ""}`}>
-          <li><a href='/'>Home</a></li>
-          <li><a href='#membership'>Membership</a></li>
-          <li><a href='#trainers'>Trainers</a></li>
-          <li><a href='#aboutus'>About Us</a></li>
+          <li><Link to='Home' smooth={true} duration={500}>Home</Link></li>
+          <li><Link to='Membership' smooth={true} duration={500}>Membership</Link></li>
+          <li><Link to='Trainers'smooth={true} duration={500}>Trainers</Link></li>
+          <li><Link to='About' smooth={true} duration={500}>About Us</Link></li>
         </ul>
 
         <button className='nav_btn'>
