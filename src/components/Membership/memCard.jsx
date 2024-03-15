@@ -1,5 +1,6 @@
 import React from 'react'
 import './memCard.css'
+import { Link } from 'react-router-dom'
 
 function MemCard({plan_name,plan_desc,price,f1,f2,f3}) {
   return (
@@ -16,7 +17,7 @@ function MemCard({plan_name,plan_desc,price,f1,f2,f3}) {
         </div>
         
         <div className='memb-btn'>
-            <button>Select Plan</button>
+            <Link to="/Form" > <button>Select Plan</button> </Link>
         </div>
 
 

@@ -10,7 +10,7 @@ function Navbar() {
 
   const handleMenuClick = () => {
     setMenuOpen(!menuOpen);
-    setNavbarBackground(!navbarBackground); // Toggle navbar background
+    setNavbarBackground(!navbarBackground); 
   };
 
   return (
@@ -28,7 +28,6 @@ function Navbar() {
 
         <ul className={`nav_list ${menuOpen ? "open" : ""}`}>
           <li><a href="/" smooth={true} duration={500}>Home</a></li>
-          {/* <li><ScrollLink to='Home' smooth={true} duration={500}>Home</ScrollLink></li> */}
           <li><ScrollLink to='Membership' smooth={true} duration={500}>Membership</ScrollLink></li>
           <li><ScrollLink to='Trainers'smooth={true} duration={500}>Trainers</ScrollLink></li>
           <li><Link to='/About'>About Us</Link></li>
