@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,10 +27,11 @@ function Navbar() {
         </div>
 
         <ul className={`nav_list ${menuOpen ? "open" : ""}`}>
-          <li><Link to='Home' smooth={true} duration={500}>Home</Link></li>
-          <li><Link to='Membership' smooth={true} duration={500}>Membership</Link></li>
-          <li><Link to='Trainers'smooth={true} duration={500}>Trainers</Link></li>
-          <li><Link to='About' smooth={true} duration={500}>About Us</Link></li>
+          <li><a href="/" smooth={true} duration={500}>Home</a></li>
+          {/* <li><ScrollLink to='Home' smooth={true} duration={500}>Home</ScrollLink></li> */}
+          <li><ScrollLink to='Membership' smooth={true} duration={500}>Membership</ScrollLink></li>
+          <li><ScrollLink to='Trainers'smooth={true} duration={500}>Trainers</ScrollLink></li>
+          <li><Link to='/About' smooth={true} duration={500}>About Us</Link></li>
         </ul>
 
         <Link to='contact' smooth={true} duration={500} className='nav_btn'>
