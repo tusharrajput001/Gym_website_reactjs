@@ -8,6 +8,7 @@ import Membership from './components/Membership/membership';
 import About from './components/AboutUs/about';
 import Contact from './components/Contact/contact';
 import Partners from './components/Partners/partners';
+import Form from './components/Form/form';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
             </>
           } />
           <Route path="/About" element={<About />}/>
-          {/* <Route path="/Form" element={} /> */}
+          <Route path="/Form" element={<Form/>} />
         </Routes>
         </div>
       </Router>

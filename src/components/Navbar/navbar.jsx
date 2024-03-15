@@ -31,7 +31,7 @@ function Navbar() {
           {/* <li><ScrollLink to='Home' smooth={true} duration={500}>Home</ScrollLink></li> */}
           <li><ScrollLink to='Membership' smooth={true} duration={500}>Membership</ScrollLink></li>
           <li><ScrollLink to='Trainers'smooth={true} duration={500}>Trainers</ScrollLink></li>
-          <li><Link to='/About' smooth={true} duration={500}>About Us</Link></li>
+          <li><Link to='/About'>About Us</Link></li>
         </ul>
 
         <Link to='contact' smooth={true} duration={500} className='nav_btn'>
