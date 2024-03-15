@@ -12,7 +12,7 @@ import tr3 from '../../assets/t3.jpg'
 function Trainers() {
   return (
     <>
-    <div id= "Trainers" className='tr-head'>Our Trainers</div>
+    <div className='tr-head'>Our Trainers</div>
     <p className='tr-p'>Believe in the power of a motivating group fitness community..</p>
     <div className='cards-con'>
         <Trcard tr_img={tr1} tr_name="Certified Trainer" tr_title="Mens Physique" tr_unv = "Rajveer Shishodia" tr_ig="https://www.instagram.com/rajveer_fitness_series/?hl=en" tr_fb="https://www.facebook.com/RajveerFitnessSeries/"/>

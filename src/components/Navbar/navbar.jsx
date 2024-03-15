@@ -31,9 +31,9 @@ function Navbar() {
           <li><Link to='About' smooth={true} duration={500}>About Us</Link></li>
         </ul>
 
-        <button className='nav_btn'>
+        <Link to='contact' smooth={true} duration={500} className='nav_btn'>
           Contact US
-        </button>
+        </Link>
       </div>
       
     </div>
