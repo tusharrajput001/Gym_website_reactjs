@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./index.css"
 import Navbar from './components/Navbar/navbar';
 import Hero from './components/Hero/hero';
 import Enroll from './components/Enroll/enroll';
