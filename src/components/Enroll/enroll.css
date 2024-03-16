@@ -2,11 +2,14 @@
     width: 100%;
     height: auto;
     filter:opacity(70%);
+    translate: 0 5px;
 }
 
 
 .enroll-div{
     position: relative;  
+    margin-top: -4px;
+
 }
 
 
