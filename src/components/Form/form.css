@@ -1,0 +1,54 @@
+.reg-form-container{
+    width: 35%;
+    height: auto;
+    margin-left: 37em;
+    margin-top: 2rem;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.reg-form-head{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.reg-form-p{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .1rem;
+}
+
+
+.icon{
+    margin: .2em;
+    display: flex;
+    justify-content: center;
+}
+
+.reg-form-container input{
+    height: 4rem;
+    margin: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+    margin-left: 9%;
+}
+
+
+.inp-name{
+    width: 15rem;
+}
+
+.inp-flds {
+    width: 35rem;
+}
+
+
+.inp-gen{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
