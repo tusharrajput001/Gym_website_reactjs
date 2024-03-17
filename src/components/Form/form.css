@@ -1,10 +1,11 @@
 .reg-form-container{
-    width: 35%;
+    width: 40em;
     height: auto;
-    margin-left: 37em;
     margin-top: 2rem;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid black;
+    overflow: hidden;
+
 }
 
 .reg-form-head{
@@ -33,12 +34,12 @@
     border-radius: 10px;
     font-size: large;
     text-align: center;
-    margin-left: 9%;
+    margin-left: 3vh;
 }
 
 
 .inp-name{
-    width: 15rem;
+    width: 16.2rem;
 }
 
 .inp-flds {
@@ -52,3 +53,15 @@
     justify-content: center;
     margin-top: 1rem;
 } 
+
+.form-main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+.inp-rad{
+    width: 30px;
+    height: 20px;
+}
