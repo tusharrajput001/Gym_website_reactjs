@@ -5,6 +5,7 @@
     padding: 10px;
     border: 2px solid black;
     overflow: hidden;
+    align-items: center; 
 
 }
 
@@ -29,7 +30,7 @@
 
 .reg-form-container input{
     height: 4rem;
-    margin: 1%;
+    margin: 2%;
     border: 2px solid black;
     border-radius: 10px;
     font-size: large;
@@ -48,10 +49,9 @@
 
 
 .inp-gen{
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
+    font-size: 1.5rem;
     margin-top: 1rem;
+    margin-left: 32%;
 } 
 
 .form-main{
@@ -61,7 +61,36 @@
     align-items: center;
 }
 
-.inp-rad{
-    width: 30px;
-    height: 20px;
+#gender{
+    margin-left: 24px;
+    font-size: 1.5rem;
+}
+
+.label-jer{
+    font-size: 1.5rem;
+    margin-left: 20%;
+}
+
+#col-selector{
+   height: 40px;
+}
+
+.label-sub{
+    margin-top: 200px;
+    font-size: 1.5rem;
+    margin-left: 20%;
+}
+
+#plan{
+    margin-left: 24px;
+    font-size: 1.5rem;
+}
+
+.submit-btn{
+    margin-top: 30px;
+    margin-left: 37%;
+    font-size: 1.5rem;
+    border-radius: 40px;
+    padding: 10px;
+    width: 150px;
 }

@@ -14,23 +14,26 @@ function Form() {
       <input className="inp-flds" placeholder='Mobile No.'></input> <br/>
       <input className="inp-flds" type='email' placeholder='Your Email'></input> <br/>
       <input className="inp-flds" placeholder='What is your Age'></input> <br/>
-      <label className='inp-gen'>What is your gender ?</label><br/>
-      <input className='inp-rad'type='radio' id='female' name='gender'></input>
-      <label for="female">Female</label>
-      <input className='inp-rad'type='radio' id='male' name='gender'></input>
-      <label for='male'>Male</label>
-      <input className='inp-rad'type='radio' id='other' name='gender'></input>
-      <label for='other'>Other</label><br/>
-      <label>Choose Your jersy colour: </label>
-      <input type="color"></input>
+
+      <label className='inp-gen'>Gender : </label>
+      <select id="gender" name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select><br/><br/>
+
+
+      <label className='label-jer'>Choose Your jersey colour: </label>
+      <input id="col-selector" type="color"></input><br/><br/>
       <br/>
-      <label>Select Subscription :</label><br/>
-      <select id="cars" name="cars">
+      <label className='label-sub'>Select Subscription :</label>
+      <select id="plan" >
         <option value="Basic">Basic $10</option>
         <option value="Pro">Pro $30</option>
         <option value="Elite">Elite $50</option>
         <option value="Annual">Annual $200</option>
-      </select>
+      </select><br/>
+      <button className="submit-btn" type='submit'>Submit</button>
     </form>
     </  div>
 )}
