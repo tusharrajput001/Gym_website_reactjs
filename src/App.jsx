@@ -10,6 +10,7 @@ import About from './components/AboutUs/about';
 import Contact from './components/Contact/contact';
 import Partners from './components/Partners/partners';
 import Form from './components/Form/form';
+import Footer from './components/Footer/footer';
 
 
 function App() {
@@ -28,12 +29,15 @@ function App() {
             <Membership/>
             <Partners/>
             <Contact/>
+            
             </>
           } />
           <Route path="/About" element={<About />}/>
           <Route path="/Form" element={<Form/>} />
         </Routes>
+        <Footer/>
         </div>
+       
       </Router>
     </>
   );

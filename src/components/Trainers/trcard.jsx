@@ -11,8 +11,8 @@ function Trcard({tr_img,tr_name,tr_title,tr_unv,tr_ig,tr_fb}) {
             <h1>{tr_name}</h1>
             <p className="tr-title">{tr_title}</p>
             <p>{tr_unv}</p>
-            <a href={tr_ig}><i class="fab fa-instagram fa-fw tr-icons"></i></a>
-            <a href={tr_fb}><i class="fab fa-facebook fa-fw tr-icons"></i></a>
+            <a href={tr_ig}><i className="fab fa-instagram fa-fw tr-icons"></i></a>
+            <a href={tr_fb}><i className="fab fa-facebook fa-fw tr-icons"></i></a>
           
                            
         </div>
