@@ -1,0 +1,17 @@
+.loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .loading-page p {
+    margin-top: 20px;
+  }
+  
+
+.load-head{
+    color: white;
+
+}
