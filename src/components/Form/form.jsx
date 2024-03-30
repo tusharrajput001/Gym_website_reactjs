@@ -32,6 +32,7 @@ function Form() {
 
 
   return (
+    <div className="form-cover">
     <div className="form-main">
       <h1 className="reg-form-head">Gym Membership Registration Form</h1>
       <div>
@@ -96,6 +97,7 @@ function Form() {
           Submit
         </button>
       </form>
+    </div>
     </div>
   );
 }

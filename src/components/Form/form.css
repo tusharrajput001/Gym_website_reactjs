@@ -1,12 +1,22 @@
+.form-cover{
+    background-image:url("../../assets/runner.png");
+    background-size: cover;
+    
+}
+
+
+
 .reg-form-container{
     width: 40em;
     height: auto;
     margin-top: 2rem;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.398);
     overflow: hidden;
     align-items: center; 
-    background-color: rgb(215, 215, 212);
+    margin-bottom: 200px;
+    border-radius: 20px;
+    background-color: #b4a11046;
 
 }
 
@@ -14,12 +24,14 @@
     font-size: 2.7rem;
     text-align: center;
     margin-top: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .reg-form-p{
     font-size: 1rem;
     text-align: center;
     margin-top: .1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -32,20 +44,26 @@
 .reg-form-container input{
     height: 4rem;
     margin: 2%;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.645);
     border-radius: 10px;
     font-size: large;
     text-align: center;
     margin-left: 2vw;
+    
 }
 
 
 .inp-name{
     width: 35rem;
+    background-color: transparent;
+
 }
 
 .inp-flds {
     width: 35rem;
+    background-color: transparent;
+   
+    
 }
 
 
@@ -65,15 +83,18 @@
 #gender{
     margin-left: 24px;
     font-size: 1.5rem;
+    background-color: transparent;
 }
 
 .label-jer{
     font-size: 1.5rem;
     margin-left: 20%;
+    
 }
 
 #col-selector{
    height: 40px;
+   background-color: transparent;
 }
 
 .label-sub{
@@ -85,17 +106,25 @@
 #plan{
     margin-left: 24px;
     font-size: 1.5rem;
+    background-color: transparent;
+    
 }
 
 .submit-btn{
     margin-top: 30px;
     margin-left: 37%;
     font-size: 1.5rem;
+    border: 2px solid black;
     border-radius: 40px;
     padding: 10px;
     width: 150px;
+    background-color: rgba(221, 229, 248, 0.442);
+    cursor: pointer;
 }
 
+.submit-btn:hover{
+    background-color: rgba(0, 98, 255, 0.573);
+}
 
 @media (max-width:731px) {
     .reg-form-container{
@@ -138,6 +167,8 @@
         margin-left: 24px;
         margin-top: 10px;
         font-size: 5vw;
+     
+        
     }
     
     .label-jer{
@@ -152,7 +183,7 @@
     }
     
     .label-sub{
-     
+        
         font-size: 5vw;
         margin-left: 18%;
     }
@@ -160,6 +191,7 @@
     #plan{
         margin-left:30%;
         font-size: 4vw;
+     
     }
     
     .submit-btn{
@@ -170,6 +202,7 @@
         border-radius: 40px;
         padding: 10px;
         width: 30vw;
+        
     }
     
 }
