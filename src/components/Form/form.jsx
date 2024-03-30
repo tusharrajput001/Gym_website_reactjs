@@ -4,13 +4,12 @@ import "./form.css";
 function Form() {
   const [formData, setFormData] = useState({
     fname: "",
-    lname: "",
     mobile: "",
     email: "",
     age: "",
-    gender: "",
-    color: "",
-    subscription: "",
+    gender: "Male",
+    color: "Yellow",
+    subscription: "Basic",
   });
 
   const handleChange = (event) => {
@@ -45,24 +44,22 @@ function Form() {
       <form className="reg-form-container">
         <input
           className="inp-name"
-          placeholder="First Name"
-          onChange={handleChange}
-        ></input>
-        <input
-          className="inp-name"
-          placeholder="Last Name"
+          placeholder="Full Name"
+          name="fname"
           onChange={handleChange}
         ></input>
         <br />
         <input
           className="inp-flds"
           placeholder="Mobile No."
+          name="mobile"
           onChange={handleChange}
         ></input>{" "}
         <br />
         <input
           className="inp-flds"
           type="email"
+          name="email"
           placeholder="Your Email"
           onChange={handleChange}
         ></input>{" "}
@@ -70,6 +67,7 @@ function Form() {
         <input
           className="inp-flds"
           placeholder="What is your Age"
+          name="age"
           onChange={handleChange}
         ></input>{" "}
         <br />
@@ -82,12 +80,12 @@ function Form() {
         <br />
         <br />
         <label className="label-jer">Choose Your jersey colour: </label>
-        <input id="col-selector" type="color" onChange={handleChange}></input>
+        <input id="col-selector" type="color" name="color" onChange={handleChange}></input>
         <br />
         <br />
         <br />
         <label className="label-sub">Select Subscription :</label>
-        <select id="plan" onChange={handleChange}>
+        <select id="plan" name="subscription" onChange={handleChange}>
           <option value="Basic">Basic $10</option>
           <option value="Pro">Pro $30</option>
           <option value="Elite">Elite $50</option>
