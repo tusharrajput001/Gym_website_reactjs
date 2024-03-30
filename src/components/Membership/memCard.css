@@ -4,7 +4,8 @@
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     margin: 4vw;
-    background-color: #ecc119;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     z-index: 100;
     
 }
@@ -62,7 +63,8 @@
 
 
 .memb-btn button{
-    font-size: 1.7vh;
+    font-size: 2vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     padding: .9vw;
     border-radius: 50px;
@@ -71,7 +73,7 @@
 
 
 .memb-btn button:hover{
-    background-color: #e75d19ca;
+    background-color: #78cb04ca;
 }
 
 
