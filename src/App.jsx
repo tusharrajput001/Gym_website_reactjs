@@ -43,6 +43,7 @@ function App() {
               <Routes>
                 <Route path="/" element={
                   <>
+                    <Navbar />
                     <Hero />
                     <Enroll />
                     <Trainers />
