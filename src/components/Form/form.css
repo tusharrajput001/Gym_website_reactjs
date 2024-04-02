@@ -4,7 +4,9 @@
     
 }
 
-
+.form-cover.loaded {
+    background-image: url("../../assets/runner.png"); 
+}
 
 .reg-form-container{
     width: 40em;

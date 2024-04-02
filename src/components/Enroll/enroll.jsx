@@ -6,7 +6,7 @@ import {Link as ScrollLink} from 'react-scroll'
 function Enroll() {
   return (
     <div className='enroll-div'>
-        <img className="enroll-img" src={banner}/>
+        <img className="enroll-img" src={banner} loading='lazy'/>
         <div className='text-overlay'>
             <h2>ENROLL NOW</h2>
             <p>Start your Fitness Journey At Radiant Gym Today.</p>

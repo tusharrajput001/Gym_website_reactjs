@@ -7,7 +7,7 @@ function Trcard({tr_img,tr_name,tr_title,tr_unv,tr_ig,tr_fb}) {
     <>
         <div className='card-cntr'>
             
-            <img src={tr_img} alt="" className='card-imga'/>
+            <img src={tr_img} alt="" className='card-imga' loading='lazy'/>
             <h1>{tr_name}</h1>
             <p className="tr-title">{tr_title}</p>
             <p>{tr_unv}</p>
