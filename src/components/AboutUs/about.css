@@ -1,103 +1,131 @@
-.ab-head{
-    color: rgb(11, 10, 10);
-    font-size: 6vh;
-    display: flex;    
-    font-weight: 600;
-    margin-top: 10vh;
-    justify-content: center;
-    text-shadow: .1vw .1vw rgb(18, 18, 18);
-
-}
-
-
-.ab-con{
+.upper-portion{
+    margin-top: 100px;
+    width: 100%;
+    height: 1300px;
+    background-color: black;
     display: flex;
-    flex-direction:row;
-    margin-top: 10vh;
-    margin-bottom: 10vw;
-}
-
-
-.ab-desc-container{
-    width: 50vw;
-    margin-left: 4vw;
+    flex-direction: column;   
+    justify-content: center;
 
 }
 
+.Ab-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    border: 2px solid #5F7252;
+    border-radius: 40px;
+    color: white;
+    width: 180px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin-top: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.ab-desc-container p{
-    letter-spacing: 0.1rem;
+.Ab-para{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.p2{
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.Ab-des-con{
+    margin-top: 50px;
+}
+
+.Ab-des{
+    display: flex;
+    width: 620px;
     height: auto;
-    opacity: 50%;
-    font-size: 1.3rem;
+    color: white;
+    margin-left: 34%;
+    justify-content: center;
+    padding: 3px;
+    font-size: 1.1rem;
+}
+
+.lower-portion{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    margin: 50px;
+    width: 80%;
+    margin-left: 7%;
+
+}
+.form-container{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    margin-left: 5%;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.form-head{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+
+.form-container input{
+    width: 450px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
 
 }
 
 
-.ab-img-container {
-    width: 300px; /* Adjust as needed */
-    height: 360px; /* Adjust as needed */
-    border: .6vw solid rgb(19, 18, 18);
-    border-radius: 17px;
-    margin-left: 12vw;
-    margin-right: 5vw;
-    overflow: hidden; /* Hide any overflow if the image exceeds container dimensions */
+.sub-btn{
+    width: 100px;
+    height: 45px;
+    border-radius: 40px;
+    background-color:#97FB57;
+    font-size: large;
 }
 
-.about_img {
-    width: 100%; /* Ensure the image takes up the entire container width */
-    height: 100%; /* Ensure the image takes up the entire container height */
-    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
-}
-
-@media (max-width:768px) {
-
-    .ab-img-container{
-        margin-top: 3vw;
-        height: 200px;
-        
-    }
-    .ab-desc-container{
-        width: 90vw;
-        margin-left: 4vw;
-    
-    }
-
-    .ab-desc-container p{
-        font-size: 1.7vw;
-        font-style: normal;
-        font-weight: 100;
-    
-    }
-
-    .ab-head{
-        font-size: 5vw;   
-        font-weight: 300;
-    }
-    
-}
-
-@media (max-width:534px) {
-    .ab-img-container{
-        margin-top: 6vw;
-        margin-left: 3vw;
-        width: 150px;
-        height: 120px;
-        
-    }
 
 
-    .ab-desc-container p{
-        font-size: 1.9vw;
-        font-style: normal;
-        
-    
-    }
 
-    .ab-head{
-        font-size: 5vw;   
-        font-weight: 200;
-    }
+.image-container {
+    width: 100%;
+    max-width: 25vw; 
+    height: 25vw; 
+    position: relative; 
+    overflow: hidden; 
+    margin-top: 8px;
+    margin-right: 350px;
+    border-radius: 20px;
+  }
+  
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  }
 
 
-}

@@ -54,6 +54,7 @@ function App() {
                   <Membership />
                   <Partners />
                   <Contact />
+                  {/* <About/> */}
                 </>
               } />
               <Route path="/About" element={<About />} />

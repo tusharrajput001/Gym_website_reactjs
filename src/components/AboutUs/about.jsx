@@ -1,21 +1,49 @@
-import React from 'react'
-import './about.css'
-import ab_img from '../../assets/jytry.avif'
+import React from 'react';
+import './about.css';
+import AbtImg from "../../assets/abtImg.png";
+
 
 function About() {
   return (
     <>
-    <div>
-    <h1 className='ab-head'>AboutUs</h1>
-    </div>
-    <div className='ab-con'>
-      <div className='ab-desc-container'>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>  
+    <div className='upper-portion'>
+      <div className='Ab-heading'>
+        About Radiant Gym
       </div>
-      <div className='ab-img-container'>
-        <img src={ab_img} className='about_img' loading='lazy'></img>
+      <div className='Ab-para'>
+        <p className='p1'>Hi! We’re a local Radiant gym in </p>
+        <p className='p2'>New Delhi, Janakpuri.</p>
       </div>
+      <div className='Ab-des-con'>
+        <p className='Ab-des'>Radiant Gym was started by Alex and Sparky in 2023. It’s our mission to </p> 
+        <p className='Ab-des'>help people in Denver get fit, stay healthy, and live life on their terms</p> 
+        <p className='Ab-des'>without fitness being an obstacle.</p>
+
+      </div>
+
+
+
+      <div className='lower-portion'>
+
+        <div className='form-container'>
+            <p className='form-head'>Claim your 7 day free trial</p>
+            <input type='text' placeholder='Name'></input>
+            <input type='email' placeholder='Email'></input>
+            <input type='text' placeholder='Phone Number'></input>
+            <input type='number' placeholder='Age'></input>
+            <button className='sub-btn'>Submit</button>
+        </div>
+
+        <div className='image-container'>
+          <img src={AbtImg} alt='Image'/>
+        </div>
+
+      </div>
+
+
     </div>
+
+
 
     </>
   )
