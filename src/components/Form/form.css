@@ -208,3 +208,14 @@
     }
     
 }
+
+
+@media (max-width:348px) {
+    #gender{
+        margin-left: 34%;
+    }
+    .inp-gen{
+        margin-left: 32%;
+        font-size: 7vw;
+    }
+}
