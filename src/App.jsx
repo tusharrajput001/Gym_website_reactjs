@@ -53,11 +53,10 @@ function App() {
                   <Trainers />
                   <Membership />
                   <Partners />
-                  <Contact />
-                  {/* <About/> */}
+                  <About/>
                 </>
               } />
-              <Route path="/About" element={<About />} />
+              <Route path="/About" element={<Contact />} />
               <Route path="/Form" element={<Form />} />
             </Routes>
             <Footer />
