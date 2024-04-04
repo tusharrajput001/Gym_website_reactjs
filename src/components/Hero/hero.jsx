@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <>
-      <div id="Home" className='img-container'>
+      <div id="Home" className='img-container' >
         <img src={HeroImg} className='img-hero' alt='hero' loading='lazy' />
         <div className='hero-intro'>
           <div className='hero-desc'>DISCOVER</div>

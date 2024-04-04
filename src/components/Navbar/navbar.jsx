@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -27,7 +26,7 @@ function Navbar() {
         </div>
 
         <ul className={`nav_list ${menuOpen ? "open" : ""}`}>
-          <li><a href="/" smooth={true} duration={500}>Home</a></li>
+          <li><ScrollLink to='Home' smooth={true} duration={500}>Home</ScrollLink></li>
           <li><ScrollLink to='Membership' smooth={true} duration={500}>Membership</ScrollLink></li>
           <li><ScrollLink to='Trainers'smooth={true} duration={500}>Trainers</ScrollLink></li>
           <li><ScrollLink to='About' smooth={true} duration={500}>About Us</ScrollLink></li>

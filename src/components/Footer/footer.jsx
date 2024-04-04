@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-
+import { Link as ScrollLink } from 'react-scroll';
 
 
 
@@ -10,10 +10,10 @@ function Footer() {
      <footer className='footer-sec'>
         <h1 className='footer-head'>Radiant Gym ©️</h1>
         <nav className='footer-nav'>
-            <a href='/'>Home</a>
-            <a href='/'>Membership</a>
-            <a href=''>Trainers</a>
-            <a href='/about'>About Us</a>
+            <a><ScrollLink to='Home' smooth={true} duration={500}>Home</ScrollLink></a>
+            <a><ScrollLink to='Membership' smooth={true} duration={500}>Membership</ScrollLink></a>
+            <a><ScrollLink to='Trainers' smooth={true} duration={500}>Trainers</ScrollLink></a>
+            <a><ScrollLink to='About' smooth={true} duration={500}>About Us</ScrollLink></a>
         </nav>
             <div className='foot-list'>
                         <a><i class="fa-brands fa-instagram fa-2xl icons-cols"></i></a>
