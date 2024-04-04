@@ -8,7 +8,6 @@ import Enroll from './components/Enroll/enroll';
 import Trainers from './components/Trainers/trainers';
 import Membership from './components/Membership/membership';
 import About from './components/AboutUs/about';
-import Contact from './components/Contact/contact';
 import Partners from './components/Partners/partners';
 import Form from './components/Form/form';
 import Footer from './components/Footer/footer';
@@ -56,7 +55,6 @@ function App() {
                   <About/>
                 </>
               } />
-              <Route path="/About" element={<Contact />} />
               <Route path="/Form" element={<Form />} />
             </Routes>
             <Footer />

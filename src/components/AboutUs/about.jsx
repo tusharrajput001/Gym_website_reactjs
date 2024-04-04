@@ -5,8 +5,8 @@ import AbtImg from "../../assets/abtImg.png";
 function About() {
   return (
     <>
-      <div className="upper-portion">
-        <div className="Ab-heading">About Radiant Gym</div>
+      <div className="upper-portion" id="About">
+        <div className="Ab-heading" >About Radiant Gym</div>
         <div className="Ab-para">
           <p className="p1">Hi! We’re a local Radiant gym in </p>
           <p className="p2">New Delhi, Janakpuri.</p>

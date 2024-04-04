@@ -210,6 +210,7 @@
         font-size: 3.7vw;
         color: black;
         border-radius: 50px;
+        margin-top: 2vh;
     }
 
     
@@ -244,3 +245,11 @@
 
 
 
+@media(max-width:280px){
+    .memb-btn button{
+        margin-top: 0px;
+        font-size: 3.7vw;
+        color: black;
+        border-radius: 50px;
+    }
+}
