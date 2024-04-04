@@ -1,168 +1,134 @@
-.Logo{
-    font-size: xx-large;
-    text-decoration: none;
-    margin: 10px 0px;
-    color: rgb(255, 255, 253);
-    text-shadow: 2px 2px rgb(123, 107, 14);
-    margin-left: 10px;
-    opacity: 70%;
+.main-logo {
+  margin: 10px;
+  width: 120px;
+  height: 40px;
 }
 
-.nav-container ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
-
+.nav-container ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-container li{
-    cursor: pointer;
+.nav-container li {
+  cursor: pointer;
 }
 
-
-
-.nav-container ul.open{
-    display: flex;
+.nav-container ul.open {
+  display: flex;
 }
 
-.nav-container li{
-    list-style: none;
-    font-size: 20px;
-    padding: 10px 10px;
-        
+.nav-container li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 10px;
 }
 
-
-.nav-container ul li a{
-    margin: 0px 14px;
-    color: rgb(252, 252, 250);
-    opacity: 60%;
-    text-decoration: none;
-    
-
+.nav-container ul li a {
+  margin: 0px 14px;
+  color: rgb(252, 252, 250);
+  opacity: 60%;
+  text-decoration: none;
 }
 
-
-.active{
-    background-color: blue;
-   
+.active {
+  background-color: blue;
 }
 
-.nav-container{
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-    margin: 0; /* Remove any default margin */
-    padding: 0;
-    z-index: 999;
-    
-   
- 
-
+.nav-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0; /* Remove any default margin */
+  padding: 0;
+  z-index: 999;
 }
 
-
-.nav_btn{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 50px;
-    padding: 8px;
-    margin-right: 50px;
-    background-color: white;
-    text-decoration: none;
-    cursor: pointer;
+.nav_btn {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 8px;
+  margin-right: 50px;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-
-.nav_btn:hover{
-    background-color: yellow;
+.nav_btn:hover {
+  background-color: yellow;
 }
 
-.nav-container{
-    background-color: #0000007c;
+.nav-container {
+  background-color: #0000007c;
 }
 
-.nav-container .menu{
+.nav-container .menu {
+  display: none;
+  position: absolute;
+  margin-top: 15px;
+  right: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2.1rem;
+  align-items: center;
+}
+
+.nav-container .menu span {
+  height: 1.4rem;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  border-radius: 0.3rem;
+  margin-bottom: 4px;
+}
+
+.nav-container.gray-bg {
+  background-color: #000000ac;
+}
+
+.nav-container {
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 938px) {
+  .nav_btn {
     display: none;
-    position: absolute;
-    margin-top: 15px;
-    right: 2rem;
+  }
+
+  .nav-container .menu {
+    display: flex;
+  }
+
+  .nav-container {
+    overflow: hidden;
     flex-direction: column;
-    justify-content: space-between;
-    width: 2.25rem;
-    height: 2.1rem;
-    align-items: center;   
-}
+    align-items: flex-start;
+  }
 
-
-
-.nav-container .menu span{
-    height: 1.4rem;
+  .nav-container ul {
+    display: none;
+    flex-direction: column;
     width: 100%;
-    background-color: rgb(235, 235, 235);
-    border-radius: 0.3rem;
-    margin-bottom: 4px;
-    
-}
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0.25rem;
+  }
 
+  .nav-container ul .open {
+    display: flex;
+  }
 
-    /* Add a new class for gray background */
-    .nav-container.gray-bg {
-        background-color: #000000ac; /* Change to the gray color you prefer */
-    }
-    
-    /* Add transition for smooth color change */
-    .nav-container {
-        transition: background-color 0.3s ease;
-    }
-
-
-
-
-@media (max-width:938px) {
-    .nav_btn{
-        display: none;
-    }
-
-
-    .nav-container .menu{
-        display: flex;
-    }
-
-    .nav-container{
-        overflow: hidden;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-container ul{
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        padding: 0px;
-        margin: 0px;
-        margin-bottom: .25rem;
-    }
-
-    .nav-container ul .open{
-        display: flex;
-    }
-
-
-    .nav-container ul li {
-        width: 100%;
-        text-align:center;
-    }
-
-
-
-
+  .nav-container ul li {
+    width: 100%;
+    text-align: center;
+  }
 }

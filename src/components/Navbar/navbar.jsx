@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { Link as ScrollLink } from 'react-scroll';
+import Logo from "../../assets/radiant.png"
 
 
 function Navbar() {
@@ -18,7 +19,7 @@ function Navbar() {
 
 
       <div className={`nav-container ${navbarBackground ? 'gray-bg' : ''}`}>
-        <a href="/" className='Logo'>Radiant Gym</a>
+        <a href="/" className='Logo'><img className="main-logo" src={Logo} alt='logo'/></a>
         <div className='menu' onClick={handleMenuClick}>
           <span></span>
           <span></span>
