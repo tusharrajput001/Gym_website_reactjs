@@ -25,13 +25,13 @@ function About() {
 
       <div className='lower-portion'>
 
-        <div className='form-container'>
-            <p className='form-head'>Claim your 7 day free trial</p>
+        <div className='Ab-form-container'>
+            <h1 className='Ab-form-head'>Claim your 7 day free trial</h1>
             <input type='text' placeholder='Name'></input>
             <input type='email' placeholder='Email'></input>
             <input type='text' placeholder='Phone Number'></input>
             <input type='number' placeholder='Age'></input>
-            <button className='sub-btn'>Submit</button>
+            <button className='Ab-sub-btn'>Submit</button>
         </div>
 
         <div className='image-container'>

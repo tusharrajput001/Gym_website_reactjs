@@ -1,131 +1,142 @@
 .upper-portion{
-    margin-top: 100px;
+    margin-top: 5%;
     width: 100%;
-    height: 1300px;
+    height: auto;
     background-color: black;
     display: flex;
     flex-direction: column;   
-    justify-content: center;
-
+    align-items: center;
 }
 
 .Ab-heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 45%;
     border: 2px solid #5F7252;
-    border-radius: 40px;
+    border-radius: 2rem;
     color: white;
-    width: 180px;
-    height: 40px;
+    padding: 10px;
     font-size: 1.1rem;
-    margin-top: 100px;
+    margin-top: 3%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Ab-para{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    font-size: 3rem;
+    color: white;   
+    margin-top: 2%;
+    text-align: center;
+    font-size: 4rem;
     font-weight: bolder;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.p1{
-    display: flex;
-    justify-content: center;
-}
 
-.p2{
-    display: flex;
-    margin-top: 8px;
-    justify-content: center;
-}
+
 
 .Ab-des-con{
-    margin-top: 50px;
-}
-
-.Ab-des{
-    display: flex;
-    width: 620px;
-    height: auto;
+    margin-top: 2%;
+    text-align: center;
     color: white;
-    margin-left: 34%;
-    justify-content: center;
     padding: 3px;
     font-size: 1.1rem;
 }
 
+
+
 .lower-portion{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 50px;
-    margin: 50px;
-    width: 80%;
-    margin-left: 7%;
-
-}
-.form-container{
+    position: relative;
     display: flex;
-    height: 500px;
-    width: 700px;
-    margin-left: 5%;
-    border-radius: 30px;
-    border: 2px solid white;
+    justify-content: space-between;
+    width: 70%;
+    margin: 2%;
+    min-height: 40%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.form-head{
+
+.Ab-form-container{
+    margin: 5%;
+    border-radius: 30px;
+    display: grid;
+    padding: 1%;
+}
+
+.Ab-form-head{
     color: white;
-    font-size: 1.9rem;
-    font-weight: 600;
+    text-align: center;
     margin: 10px;
     margin-bottom: 20px;
-
 }
 
-.form-container input{
-    width: 450px;
-    height: 70px;
+.Ab-form-container input{
     border-radius: 15px;
     margin-bottom: 15px;
-    font-size: 1.2rem;
-
+    padding: 6%;
 }
 
 
-.sub-btn{
-    width: 100px;
-    height: 45px;
+.Ab-sub-btn{
+    padding: 7px;
     border-radius: 40px;
     background-color:#97FB57;
-    font-size: large;
+    font-size: 1.1vw;
+    margin:0px 30%;
 }
 
 
 
 
 .image-container {
-    width: 100%;
-    max-width: 25vw; 
-    height: 25vw; 
-    position: relative; 
-    overflow: hidden; 
-    margin-top: 8px;
-    margin-right: 350px;
+    
     border-radius: 20px;
-  }
+    margin: 7%;
+
+}
+
   
 .image-container img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-  }
+    border-radius: 20px;
+
+}
 
 
+@media(max-width:1548px){
+    .lower-portion{
+        width: 100%;
+        margin: 1%;
+    }
+}
+
+@media(max-width:1086px){
+    .lower-portion{
+        width: 45%;
+    }
+    .image-container img {
+        width: 40vw;
+    
+    }
+
+    .Ab-sub-btn{
+        font-size: 2vw;
+    }
+    .Ab-para{ 
+        margin-top: 2%;
+        font-size: 3rem;
+
+    }
+    
+}
+
+@media (max-width:639px){
+    .lower-portion{
+        width: 70%;
+    }
+
+    .image-container img {
+        width: 58vw;
+    
+    }
+
+    .Ab-sub-btn{
+        padding: 10px;
+        font-size: 4vw;
+
+    }
+}
