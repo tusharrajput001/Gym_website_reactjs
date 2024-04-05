@@ -1,0 +1,23 @@
+.rev-Crd{
+    border: 2px solid red;
+    text-align: center;
+
+
+}
+
+.avatar-con{
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.avatar-con img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+
+}
+

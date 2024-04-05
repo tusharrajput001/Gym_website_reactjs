@@ -12,6 +12,7 @@ import Partners from './components/Partners/partners';
 import Form from './components/Form/form';
 import Footer from './components/Footer/footer';
 import Loading from './components/Loading/loading';
+import ClientReviews from './components/ClientReviews/ClientReviews';
 
 // css
 import "./index.css";
@@ -52,6 +53,7 @@ function App() {
                   <Trainers />
                   <Membership />
                   <Partners />
+                  <ClientReviews/>
                   <About/>
                 </>
               } />
