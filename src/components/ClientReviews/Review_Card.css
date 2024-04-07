@@ -1,5 +1,4 @@
 .rev-Crd{
-    border: 3px solid rgb(252, 251, 251);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -7,7 +6,9 @@
     width: 25vw;
     overflow-y: hidden; 
     border-radius: 30px;
-    background-color:#d8c8ade9
+    background-color:#d8c8ade9;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
 }
 
 .avatar-con{
