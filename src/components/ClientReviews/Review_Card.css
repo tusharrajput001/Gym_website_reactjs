@@ -43,9 +43,10 @@
 }
 
 
-@media (max-width:768px) {
+
+
+@media (max-width:1100px) {
     .rev-Crd{
-        border: 2px solid red;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -59,4 +60,24 @@
         color: rgb(255, 145, 0); 
         font-size: x-large; 
     }
+}
+
+
+
+
+@media (max-width:668px) {
+    .rev-Crd{
+        width: 50vw;
+        /* height: 40vw; */
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .stars{
+        font-size: large; 
+    }
+
+    .rev-Crd p{
+        font-size: large;
+    }
+    
 }
